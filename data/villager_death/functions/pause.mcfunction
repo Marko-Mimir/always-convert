@@ -1,0 +1,1 @@
+schedule clear villager_death:tick
