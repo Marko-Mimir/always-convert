@@ -16,7 +16,16 @@
                 {  
                     "type": "loot_table",
                     "name": "minecraft:entities/reference/villager/villager_death",
-                    "weight": 1
+                    "weight": 1,
+                    "conditions": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "killer",
+                        "predicate": {
+                            "type": "minecraft:zombie"
+                        }
+                    }
+                    ]
                 }
             ]
         }
